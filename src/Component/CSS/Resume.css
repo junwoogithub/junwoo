@@ -1,0 +1,27 @@
+.containerStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.columnStyle {
+  flex: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.hrStyle {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.textContainerStyle {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.imageStyle {
+  width: 500px;
+  height: 500px;
+}

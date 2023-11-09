@@ -1,0 +1,53 @@
+
+body {
+  background-color: #f0f0f0; /* 연한 회색 배경색으로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  height: 100vh; /* 화면 높이 전체를 차지하도록 설정 */
+}
+
+
+.div{
+  background-size : 1000px 450px;
+  background-color: lightgray;
+}
+
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 0px;
+  margin-right: 80px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.nav-list li:first-child {
+  margin-left: 50px; /* 원하는 왼쪽 간격 설정 */
+}
+
+
+
+
+
+
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
