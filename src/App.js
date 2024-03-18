@@ -9,13 +9,13 @@ import Project3 from "./Component/Project/Project3";
 import Contest1 from "./Component/Contest/Contest1";
 import Contest2 from "./Component/Contest/Contest2";
 import Project from "./Component/Project";
-import Skills from "./Component/Skills";
 import Contest from "./Component/Contest";
 import Career from "./Component/Career";
 import Skills1 from "./Component/Skills/Skills1";
 import Skills2 from "./Component/Skills/Skills2";
 import Skills3 from "./Component/Skills/Skills3";
 import Skills4 from "./Component/Skills/Skills4";
+import Skills from "./Component/Skills";
 import Introduction from "./Component/Introduction";
 import "./App.css";
 import Career1 from "./Component/Career/Career1";
@@ -41,7 +41,6 @@ function App() {
     } else if (page === "contest2") {
       setSelectedPage(<Contest2 />);
     }
-
     else if (page === "career1") {
       setSelectedPage(<Career1 />);
     } else if (page === "career2") {
@@ -63,14 +62,17 @@ function App() {
       <BrowserRouter>
         <nav className="header">
           <ul className="nav-list">
-            <li style={{ fontSize: "25px", color: "gray", textDecoration: "none", marginLeft: "80px", marginRight: "auto" }}>Portfolio</li>
-            <li><Link to="/introduction" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>나의소개</Link></li>
-            <li><Link to="/skills" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>스킬</Link></li>
-            <li><Link to="/project" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>프로젝트</Link></li>
-            <li><Link to="/contest" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>공모전</Link></li>
-            <li><Link to="/career" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>나의경력</Link></li>
+          <li style={{ fontSize: "45px", marginLeft: "80px", marginRight: "auto" }}>
+            <Link to="/" style={{ color: "gray", textDecoration: "none" }}>Portfolio</Link>
+          </li>
+            <li><Link to="/introduction" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>About me</Link></li>
+            <li><Link to="/skills" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>Skills</Link></li>
+            <li><Link to="/project" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>Projects</Link></li>
+            <li><Link to="/contest" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>Contests</Link></li>
+            <li><Link to="/career" style={{ fontSize: "25px", color: "gray", textDecoration: "none" }}>Careers</Link></li>
           </ul>
         </nav>
+        <hr />
         <div className="container">
           <section className="section">
             <Routes>
@@ -114,6 +116,7 @@ function App() {
   <Route path="/skills/skills4" element={<Skills4 />} />
             </Routes>
           </section>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
         <footer>
           <i>컴퓨터공학과 - 202035209 - 이준우 <br /> 연락처: 010-9520-1951</i>

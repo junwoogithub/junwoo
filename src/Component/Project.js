@@ -6,8 +6,8 @@ import Project3 from "./Project/Project3";
 
 function Project() {
   const imageSize = {
-    width: "600px",
-    height: "800px",
+    width: "500px",
+    height: "500px",
   };
 
   const textOverlayStyle = {
@@ -38,7 +38,11 @@ function Project() {
         selectedPage
       ) : (
         <table style={{ margin: "0 auto" }}>
-          <caption>asdasd</caption>
+            <br /><br /><br /><br />
+        <div style={{ fontSize: "50px", fontFamily: "Arial, sans-serif", color: "gray", marginLeft: "90px"}}>
+        <caption>Project</caption>
+        <br /><br />
+        </div>
           <tbody>
             <tr>
               <td
@@ -46,28 +50,26 @@ function Project() {
                 onClick={() => handleImageClick("project1")}
               >
                 <Link to="/project/project1"> {/* 수정된 부분 */}
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div style={textOverlayStyle}>텍스트 추가 1</div>
+                  <img src="/image/common10.jpg.avif" alt="" style={imageSize} />
                 </Link>
               </td>
-              <td style={{ width: "20px" }}></td>
+              <td style={{ width: "50px" }}></td>
               <td
                 style={{ position: "relative" }}
                 onClick={() => handleImageClick("project2")}
               >
                 <Link to="/project/project2"> {/* 수정된 부분 */}
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div style={textOverlayStyle}>텍스트 추가 2</div>
+                  <img src="/image/common12.png" alt="" style={imageSize} />
                 </Link>
               </td>
-              <td style={{ width: "20px" }}></td>
+              <td style={{ width: "50px" }}></td>
               <td
                 style={{ position: "relative" }}
                 onClick={() => handleImageClick("project3")}
               >
                 <Link to="/project/project3"> {/* 수정된 부분 */}
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div style={textOverlayStyle}>텍스트 추가 3</div>
+                  <img src="/image/common11.jpg.webp" alt="" style={imageSize} />
+                
                 </Link>
               </td>
             </tr>

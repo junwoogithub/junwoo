@@ -1,19 +1,19 @@
+import '../CSS/Project.css';
 const Project3 = () => {
   return (
     <div>
-      <h1>NodeJs 이용한 Backend Web</h1>
-      <img src="/image/node.png" alt="react" />
-      <fieldset>
-        <legend>프로젝트 개요</legend>
-        <ul>
-          <li>프로젝트에 대한 내용을 작성</li>
-          <li>프로젝트에 대한 내용을 작성</li>
-          <li>프로젝트에 대한 내용을 작성</li>
-          <li>프로젝트에 대한 내용을 작성</li>
-          <li>프로젝트에 대한 내용을 작성</li>
-        </ul>
-      </fieldset>
+    <div className='project'>project3&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; My Own website design</div>
+    <div className='disflex'>
+    <div className='margin'><img src="/image/common18.png" alt="" style={{ width: '600px', height: '600px' }} />
     </div>
+    <div>
+      <div className='project1'>asd</div>
+      <div style={{ marginBottom:'50px', fontSize:'25px',color: '#555' }}>asdasd</div>
+      <div className='project1'>asd</div>
+      <div style={{ marginBottom:'50px', fontSize:'25px',color: '#555' }}>asdasd</div>
+    </div>
+    </div>
+  </div>
   );
 };
 

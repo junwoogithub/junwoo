@@ -6,8 +6,8 @@ import Contest2 from "./Contest/Contest2";
 
 function Contest() {
   const imageSize = {
-    width: "600px",
-    height: "800px",
+    width: "800px",
+    height: "500px",
   };
 
   const textOverlayStyle = {
@@ -32,7 +32,12 @@ function Contest() {
         selectedPage
       ) : (
         <table style={{ margin: "0 auto" }}>
-          <caption>asdasd</caption>
+           <br /><br /><br /><br />
+        <div style={{ fontSize: "50px", fontFamily: "Arial, sans-serif", color: "gray", marginLeft: "50px"}}>
+        <caption>Contest</caption>
+        </div>
+
+          <br /><br /><br />
           <tbody>
             <tr>
               <td
@@ -40,18 +45,7 @@ function Contest() {
                 onClick={() => handleImageClick("contest1")}
               >
                 <Link to="/contest/contest1">
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div
-                    style={{
-                      ...textOverlayStyle,
-                      position: "absolute",
-                      top: "50%",
-                      left: "50%",
-                      transform: "translate(-50%, -50%)",
-                    }}
-                  >
-                    텍스트 추가 1
-                  </div>
+                  <img src="/image/common13.png" alt="" style={imageSize} />
                 </Link>
               </td>
               <td style={{ width: "20px" }}></td>
@@ -60,18 +54,8 @@ function Contest() {
                 onClick={() => handleImageClick("contest2")}
               >
                 <Link to="/contest/contest2">
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div
-                    style={{
-                      ...textOverlayStyle,
-                      position: "absolute",
-                      top: "50%",
-                      left: "50%",
-                      transform: "translate(-50%, -50%)",
-                    }}
-                  >
-                    텍스트 추가 2
-                  </div>
+                  <img src="/image/common14.png" alt="" style={imageSize} />
+                  
                 </Link>
               </td>
             </tr>

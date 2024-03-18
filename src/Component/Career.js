@@ -1,4 +1,3 @@
-// Introduction.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Career1 from "./Career/Career1";
@@ -6,8 +5,8 @@ import Career2 from "./Career/Career2";
 
 function Career() {
   const imageSize = {
-    width: "600px",
-    height: "800px",
+    width: "800px",
+    height: "500px",
   };
 
   const textOverlayStyle = {
@@ -32,7 +31,12 @@ function Career() {
         selectedPage
       ) : (
         <table style={{ margin: "0 auto" }}>
-          <caption>asdasd</caption>
+           <br /><br /><br /><br />
+        <div style={{ fontSize: "50px", fontFamily: "Arial, sans-serif", color: "gray", marginLeft: "50px"}}>
+        <caption>Career</caption>
+        </div>
+
+          <br /><br /><br />
           <tbody>
             <tr>
               <td
@@ -40,18 +44,7 @@ function Career() {
                 onClick={() => handleImageClick("career1")}
               >
                 <Link to="/career/career1">
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div
-                    style={{
-                      ...textOverlayStyle,
-                      position: "absolute",
-                      top: "50%",
-                      left: "50%",
-                      transform: "translate(-50%, -50%)",
-                    }}
-                  >
-                    텍스트 추가 1
-                  </div>
+                  <img src="/image/common15.png" alt="" style={imageSize} /> //프리랜서
                 </Link>
               </td>
               <td style={{ width: "20px" }}></td>
@@ -60,18 +53,7 @@ function Career() {
                 onClick={() => handleImageClick("career2")}
               >
                 <Link to="/career/career2">
-                  <img src="/image/contest1.png" alt="" style={imageSize} />
-                  <div
-                    style={{
-                      ...textOverlayStyle,
-                      position: "absolute",
-                      top: "50%",
-                      left: "50%",
-                      transform: "translate(-50%, -50%)",
-                    }}
-                  >
-                    텍스트 추가 2
-                  </div>
+                  <img src="/image/common16.jpeg" alt="" style={imageSize} /> //인턴
                 </Link>
               </td>
             </tr>

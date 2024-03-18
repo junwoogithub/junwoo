@@ -16,22 +16,15 @@ body {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  padding: 0;
 }
 
 .nav-list li {
   margin-left: 0px;
   margin-right: 80px;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-bottom: 25px;
   font-weight: normal;
   display: inline-block;
-}
-
-.nav-list li:first-child {
-  margin-left: 50px; /* 원하는 왼쪽 간격 설정 */
 }
 
 

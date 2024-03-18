@@ -1,13 +1,15 @@
-#career{
-  margin-left: 500px;
-}
-img{
-  width:1200px;
-  height:800px;
+.career{
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 50px;
+  color: #333; 
+
 }
 
-fieldset {
-  width: 2000px;
-  margin-left: 50px;
-  font-size: 1.5em;
+.careerdispaly{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
 }
